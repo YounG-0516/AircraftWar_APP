@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/bg9"
+android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="98dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="AIRCRAFT-WAR"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="SINGER-PLAYER"
+
+            android:fontFamily="serif"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/easy_btn"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/EasyGame"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/medium_btn"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="@string/MediumGame"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+
+        <Button
+            android:id="@+id/hard_btn"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="@string/HardGame"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+        <Switch
+            android:id="@+id/bgm"
+            android:layout_width="114dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:showText="true"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/music"
+            android:textOff="关"
+            android:textOn="开"
+            android:textSize="20sp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

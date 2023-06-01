@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AircraftWar</string>
+    <string name="MediumGame">普通模式</string>
+    <string name="EasyGame">简单模式</string>
+    <string name="HardGame">困难模式</string>
+    <string name="music">音量</string>
+</resources>

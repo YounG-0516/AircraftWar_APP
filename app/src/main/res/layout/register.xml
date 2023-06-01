@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg9"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="338dp"
+        android:layout_height="600dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="98dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="REGISTER"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/person"
+                android:padding="5dp" />
+
+            <EditText
+                android:id="@+id/register_ID"
+                android:layout_marginLeft="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/white"
+                android:hint="please enter your userID"
+                android:textColorHint="@color/white"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="248dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/lock"
+                android:padding="5dp" />
+
+            <EditText
+                android:id="@+id/register_password"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/white"
+                android:hint="please enter your password"
+                android:inputType="textPassword"
+                android:textColorHint="@color/white"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="248dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/name"
+                android:padding="5dp" />
+
+            <EditText
+                android:id="@+id/confirm_password"
+                android:layout_marginLeft="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/white"
+                android:hint="please confirm your password"
+                android:inputType="textPassword"
+                android:textColorHint="@color/white"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="248dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:onClick="create"
+            android:text="REGISTER"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </LinearLayout>
+
+</LinearLayout>
