@@ -1,6 +1,7 @@
 # AircraftWar-APP
 @author young
 - 此项目为HITSZ面向对象的软件构造实践课程代码，即飞机大战的安卓版，本`README.md`节选自结题报告
+- 本项目的[服务器代码](https://github.com/YounG-0516/AircraftWar-App-Server)
 ## 系统核心功能运行结果与分析
 ### 单机模式：
 1. 运行APP后，进入开始界面（图1）
